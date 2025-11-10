@@ -178,27 +178,46 @@ margin: 0 15px;
     flex-basis: 400px;
 }
 
-.discord-description h1{
+main h1{
     font-weight: 800;
 }
 
-.discord-description p{
+main p{
     margin-top: 20px;
 }
+
+
 /*LAST CONTAINER*/
 
 .container3 {
     height: 1000px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 100px 200px;
 }
 
-.green-block{
-    height: 80%;
-    flex-basis: 1200px;
+.bigger-img{
+    flex-grow: 1;
 }
 
+.start-download{
+    background-image: url(/imgs/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 30px;
+}
+
+ .start-download .btn{
+    background-color: rgb(114, 137, 218);
+    color: white;
+ }
 
 /*Footer*/
 
@@ -209,6 +228,7 @@ footer{
 .footer-block{
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 90%;
