@@ -1,0 +1,194 @@
+
+
+/*Reset CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*UTILITY*/
+
+li{
+    list-style: none;
+}
+
+.border{
+    border: dashed black 2px;
+}
+
+.white-border{
+    border: dashed white 3px;
+}
+    
+.bg-darkgray{
+    background-color: rgb(35, 39, 42);
+}
+
+.bg-acquamarine{
+    background-color: aquamarine;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-deepblue{
+    background-color: blue;
+}
+
+.bg-pinkviolet{
+    background-color: palevioletred;
+}
+
+.bg-gray{
+    background-color: lightgrey;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-lightblue{
+    background-color: lightblue;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+
+/*Header*/
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  
+  .navbar-link ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .navbar-logo{
+    flex-grow: 1;
+  }
+
+  .navbar-login{
+    flex-grow: 1;
+    text-align: end;
+  }
+
+  /*HERO*/
+
+.hero-container{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero{
+    width: 60%;
+    height: 70%;
+}
+
+ /* MAIN CONTAINERS*/
+
+.block{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 , .container2{
+    height: 90%;
+    width: 80%;
+    display: flex;
+}
+
+
+.blue-block{
+    height: 100%;
+    flex-grow: 1;
+}
+
+.pink-block{
+    height: 100%;
+    flex-basis: 400px;
+}
+
+/*LAST CONTAINER*/
+
+.container3 {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-block{
+    height: 80%;
+    flex-basis: 1200px;
+}
+
+
+/*Footer*/
+
+footer{
+    height: 500px;
+}
+
+.footer-block{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    flex-basis: 1200px;
+}
+
+.footer-main-section{
+    height: 100%;
+    flex-basis: 400px;
+}
+
+.footer-links{
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    flex-basis: 25%;
+}
+
+.footer-navbar{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+
+.footer-navbar-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    }
+
