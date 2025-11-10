@@ -10,19 +10,16 @@
 
 
 /*UTILITY*/
+body{
+    font-family: "Nunito Sans", sans-serif;
+    line-height: px;
+    letter-spacing: 1px;
+}
 
 li{
     list-style: none;
 }
 
-.border{
-    border: dashed black 2px;
-}
-
-.white-border{
-    border: dashed white 3px;
-}
-    
 .bg-darkgray{
     background-color: rgb(35, 39, 42);
 }
@@ -31,12 +28,9 @@ li{
     background-color: aquamarine;
 }
 
-.bg-orange{
-    background-color: orange;
-}
 
 .bg-deepblue{
-    background-color: blue;
+    background-color: #255ee9;
 }
 
 .bg-pinkviolet{
@@ -44,25 +38,36 @@ li{
 }
 
 .bg-gray{
-    background-color: lightgrey;
+    background-color: #f6f6f6;
 }
 
-.bg-pink{
-    background-color: pink;
-}
-
-.bg-lightblue{
-    background-color: lightblue;
-}
 
 .bg-green {
     background-color: green;
 }
 
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn { 
+    background-color: white;    
+    border-radius: 30px;
+    color: black;
+    padding: 8px 15px ;
+}
+
+
 /*Header*/
 
+header{
+    color:white;
+}
+
 .navbar-container{
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -73,36 +78,79 @@ li{
   .navbar-link ul{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-  }
+    align-items: center;
+    gap: 30px;
+    margin: 10px;
+    font-size: 14px;
+}
 
-  .navbar-logo{
+.navbar-logo{
     flex-grow: 1;
-  }
+}
 
-  .navbar-login{
+.navbar-login{
     flex-grow: 1;
     text-align: end;
+    font-size: 14px;
   }
+
 
   /*HERO*/
 
 .hero-container{
-    height: 500px;
+    background-image: url(/imgs/jumbo.png);
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .hero{
     width: 60%;
     height: 70%;
+    margin: 150px;
+    
 }
+
+.hero h1 {
+    letter-spacing: 3px;
+    font-stretch: condensed;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.hero p{
+    margin: 30px 100px;
+
+}
+
+.hero-btn .btn {
+padding: 15px;
+margin: 0 15px;
+}
+
+.btn-action{
+    background-color: black;
+    color: white;
+}
+
+.block .bg-waves{
+    width: 100%;
+    
+}
+
+
+/*
+.bg-waves{
+    background-image: url(/imgs/wave.svg);
+
+}*/
 
  /* MAIN CONTAINERS*/
 
 .block{
-    height: 500px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,19 +160,31 @@ li{
     height: 90%;
     width: 80%;
     display: flex;
+    margin: 150px 0;
+}
+
+.container2 {
+    padding: 0 50px;
 }
 
 
-.blue-block{
+.discord-image{
     height: 100%;
     flex-grow: 1;
 }
 
-.pink-block{
+.discord-description{
     height: 100%;
     flex-basis: 400px;
 }
 
+.discord-description h1{
+    font-weight: 800;
+}
+
+.discord-description p{
+    margin-top: 20px;
+}
 /*LAST CONTAINER*/
 
 .container3 {
