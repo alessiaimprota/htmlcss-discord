@@ -12,8 +12,9 @@
 /*UTILITY*/
 body{
     font-family: "Nunito Sans", sans-serif;
-    line-height: px;
+    line-height: 35px;
     letter-spacing: 1px;
+
 }
 
 li{
@@ -50,12 +51,14 @@ a {
     background-color: #f6f6f6;
 }
 
-
+.bg-blueblack{
+    background-color: #23272a;
+}
 
 /*Header*/
 
 header{
-    color:white;
+    color:white;    
 }
 
 .navbar-container{
@@ -123,7 +126,6 @@ margin: 0 15px;
 }
 
 .btn-action{
-    background-color: black;
     color: white;
 }
 
@@ -149,8 +151,7 @@ margin: 0 15px;
 }
 
 .container1 , .container2{
-    height: 90%;
-    width: 80%;
+    color: #23272a;
     display: flex;
     margin: 150px 0;
 }
@@ -172,6 +173,7 @@ margin: 0 15px;
 
 main h1{
     font-weight: 800;
+    line-height: 50px;
 }
 
 main p{
@@ -296,11 +298,11 @@ footer {
 .box-links ul{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 
-footer li:first-child{
+footer li:first-child a{
     color: #7289da;
     font-weight: 800;
 }
@@ -311,6 +313,8 @@ footer li:first-child{
     margin: 30px auto; 
 
 }
+
+a
 
 
 
@@ -330,6 +334,9 @@ footer li:first-child{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    font-size: 16px;
+    font-size: 14px;
     }
 
+    .footer-navbar-btn a{
+        color: white;
+    }
