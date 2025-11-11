@@ -55,6 +55,8 @@ a {
     background-color: #23272a;
 }
 
+
+
 /*Header*/
 
 header{
@@ -70,7 +72,7 @@ header{
   }
 
   
-  .navbar-link ul{
+.navbar-link ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -96,7 +98,6 @@ header{
     background-image: url(/imgs/jumbo.png);
     background-size: cover;
     display: flex;
-    align-items: center;
     justify-content: center;
     text-align: center;
 }
@@ -110,14 +111,12 @@ header{
 
 .hero h1 {
     letter-spacing: 3px;
-    font-stretch: condensed;
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .hero p{
     margin: 30px 100px;
-
 }
 
 .hero-btn .btn {
@@ -129,21 +128,13 @@ margin: 0 15px;
     color: white;
 }
 
-.block .bg-waves{
-    width: 100%;
-    
-}
 
 
-/*
-.bg-waves{
-    background-image: url(/imgs/wave.svg);
 
-}*/
-
- /* MAIN CONTAINERS*/
+/* MAIN CONTAINERS*/
 
 .block{
+    padding: 50px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -153,8 +144,9 @@ margin: 0 15px;
 .container1 , .container2{
     color: #23272a;
     display: flex;
-    margin: 150px 0;
+    margin: 50px 0;
 }
+
 
 .container2 {
     padding: 0 50px;
@@ -187,7 +179,6 @@ main p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
     padding: 150px 0;
 }
@@ -216,6 +207,7 @@ main p{
 
 .container3 h2{
     font-weight: 800;
+    padding: 10px 10px;
 }
 .container3 a {
     color: white;
@@ -279,13 +271,7 @@ footer {
 }
 
 
-
-
-
 .footer-links{
-    flex-grow: 1;
-    display: flex;
-    justify-content: space-between;
     font-size: 16px;
 }
 
@@ -293,12 +279,6 @@ footer {
 .box-links{
     display: flex;
     gap: 150px;
-}
-
-.box-links ul{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 
 
@@ -313,12 +293,6 @@ footer li:first-child a{
     margin: 30px auto; 
 
 }
-
-a
-
-
-
-
 
 
 
